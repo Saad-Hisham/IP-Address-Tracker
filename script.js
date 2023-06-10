@@ -9,6 +9,7 @@ const isps = document.getElementById("isp");
 const inputElement = document.getElementById("ip-input");
 const validationMessageElement = document.getElementById("validation-message");
 const submitButton = document.getElementById("submit-button");
+const ip = document.getElementById("ip");
 const ipRegex = /^([0-9]{1,3}\.){3}[0-9]{1,3}$/;
 var ipAddress = "192.212.174.101";
 
@@ -64,6 +65,7 @@ submitButton.addEventListener("click", () => {
         locations.innerHTML = data.location.city
         times.innerHTML = `UTC` + data.location.timezone
         isps.innerHTML = data.isp
+        ip.innerHTML = inputElement.value
         console.log(data)
         // create a marker for the IP location and add it to the map
         L.marker([lat, lon]).addTo(map)
