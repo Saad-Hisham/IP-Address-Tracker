@@ -3,7 +3,9 @@
     margin: 0;
     font-family: 'Rubik', sans-serif;
 }
-body,html{
+
+body,
+html {
     overflow-x: hidden;
 }
 
@@ -72,7 +74,7 @@ h2 {
 }
 
 p {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 31px;
     margin-top: 1rem;
     width: 17rem;
@@ -91,29 +93,33 @@ span#validation-message {
     left: 43%;
     top: -24px;
 }
+
 /* ------------- */
 
 @media only screen and (max-width: 767px) {
-   
-input {
-    width: 19rem;
-}
-h2,p {
-    width: 100%;
-    text-align: center;
-    margin-top: 1rem;
-}
+
+    input {
+        width: 19rem;
+    }
+
+    h2,
+    p {
+        width: 100%;
+        text-align: center;
+        margin-top: 1rem;
+    }
 
 
-.data-container {
-    display: block;
-    width: 100%;
-    padding: 33px;
+    .data-container {
+        display: block;
+        width: 100%;
+        padding: 33px;
+    }
 }
-  }
-  footer{
+
+footer {
     margin-top: 5vh;
-    background-image:url("./ip-address-tracker-master/images/pattern-bg-desktop.png") ;
+    background-image: url("./ip-address-tracker-master/images/pattern-bg-desktop.png");
     height: 5vh;
     display: flex;
     justify-content: center;
@@ -121,13 +127,15 @@ h2,p {
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  a{
+}
+
+a {
     color: white;
     margin-left: .5rem;
-  }
-  a:nth-of-type(2){
+}
+
+a:nth-of-type(2) {
     font-weight: bold;
     font-size: 1.2rem;
     letter-spacing: .1rem;
-  }
+}
