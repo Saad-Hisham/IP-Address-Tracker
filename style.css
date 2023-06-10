@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+body,html{
+    overflow-x: hidden;
+}
+
+.input-container {
+    position: relative;
+}
+
+header {
+    min-height: 280px;
+    background-image: url("./ip-address-tracker-master/images/pattern-bg-desktop.png");
+    color: white;
+    text-align: center;
+    padding: 1px;
+    background-size: cover;
+}
+
+h1 {
+    margin: 35px 0px;
+    padding: 1px;
+}
+
+input {
+    width: 479px;
+    height: 58px;
+    border-radius: .5rem 0rem 0rem .5rem;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+button {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -6px;
+    left: -5px;
+    border: none;
+    background: #3f3f3f;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    width: 3rem;
+    height: 59px;
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1048px;
+    margin: auto;
+    background: white;
+    color: black;
+    min-height: 160px;
+    border-radius: 0.7rem;
+    align-items: center;
+    padding-left: 33px;
+    padding-right: 33px;
+    position: relative;
+    top: 60px;
+    z-index: 2;
+}
+
+h2 {
+    width: 91px;
+    font-size: 1rem;
+    color: #949494;
+}
+
+p {
+    font-weight: bold;
+    font-size: 31px;
+    margin-top: 1rem;
+    width: 17rem;
+    text-align: left;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+span#validation-message {
+    display: inline;
+    color: red;
+    position: absolute;
+    left: 43%;
+    top: -24px;
+}
+/* ------------- */
+
+@media only screen and (max-width: 767px) {
+   
+input {
+    width: 19rem;
+}
+h2,p {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.data-container {
+    display: block;
+    width: 100%;
+    padding: 33px;
+}
+  }
+  footer{
+    margin-top: 5vh;
+    background-image:url("./ip-address-tracker-master/images/pattern-bg-desktop.png") ;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  a{
+    color: white;
+    margin-left: .5rem;
+  }
+  a:nth-of-type(2){
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+  }

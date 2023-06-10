@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Add a description for search engines -->
+  <meta name="description" content="Discover the benefits of using an interactive rating component on your website to improve
+         user engagement and satisfaction. Get started today.">
+
+  <!--  title of the page -->
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="icon" href="./ip-address-tracker-master/images/favicon-32x32.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+</head>
+
+<body>
+  <header>
+    <h1> IP Address Tracker </h1>
+    <div class="input-container">
+      <input type="text" id="ip-input" />
+      <span id="validation-message" style="display: none; color: red;">Invalid IP address</span>
+      <button id="submit-button">
+        <img src="./ip-address-tracker-master/images/icon-arrow.svg" alt="arrow icon" />
+      </button>
+    </div>
+    <div class="data-container">
+      <div>
+        <h2>IP Address </h2>
+        <p>192.212.174.101</p>
+      </div>
+
+      <div>
+        <h2>Location</h2>
+        <p id="location">test</p>
+      </div>
+
+      <div>
+        <h2>Timezone</h2>
+        <p id="time">UTC</p>
+      </div>
+
+      <div>
+        <h2> ISP</h2>
+        <p id="isp">test</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="mapid" style="height: 520px;"></div>
+
+  </main>
+  <!-- main  container -->
+
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Saad-Hisham"> Saad Hisham </a>.
+  </footer>
+
+  <script src="https://kit.fontawesome.com/9b0411041a.js" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
