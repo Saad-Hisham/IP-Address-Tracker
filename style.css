@@ -75,11 +75,10 @@ h2 {
 
 p {
     font-weight: 500;
-    font-size: 31px;
+    font-size: 20px;
     margin-top: 1rem;
     width: 17rem;
     text-align: left;
-    font-size: 20px;
 }
 
 main {
@@ -98,9 +97,13 @@ span#validation-message {
 /* ------------- */
 
 @media only screen and (max-width: 767px) {
+    footer {
+   font-size: .7rem;
+    }
+    
 
     input {
-        width: 19rem;
+        width: 15rem;
     }
 
     h2,
@@ -113,7 +116,7 @@ span#validation-message {
 
     .data-container {
         display: block;
-        width: 100%;
+        width: 75%;
         padding: 33px;
     }
 }
@@ -135,8 +138,3 @@ a {
     margin-left: .5rem;
 }
 
-a:nth-of-type(2) {
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: .1rem;
-}
